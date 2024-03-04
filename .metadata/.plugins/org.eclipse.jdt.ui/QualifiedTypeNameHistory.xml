@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="designpatterns.singleton.singleThreaded.DatabaseConnection"/>
+    <fullyQualifiedTypeName name="designpatterns.singleton.eagerLoaded.DatabaseConnection"/>
+    <fullyQualifiedTypeName name="designpatterns.singleton.doubleCheckLocking.DatabaseConnection"/>
+    <fullyQualifiedTypeName name="designpatterns.builder.Student"/>
+    <fullyQualifiedTypeName name="designpatterns.builder.Builder"/>
+    <fullyQualifiedTypeName name="designpatterns.builder.Student.Builder"/>
+    <fullyQualifiedTypeName name="designpatterns.prototypeAndRegistry.Student"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="designpatterns.prototypeAndRegistry.StudentRegistry"/>
+    <fullyQualifiedTypeName name="designpatterns.prototypeAndRegistry.Prototype"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="designpatterns.prototypeAndRegistry.IntelligentStudent"/>
+    <fullyQualifiedTypeName name="designpatterns.factory.components.Button"/>
+    <fullyQualifiedTypeName name="designpatterns.factory.components.menu.Menu"/>
+    <fullyQualifiedTypeName name="designpatterns.factory.components.dropdown.DropDown"/>
+    <fullyQualifiedTypeName name="designpatterns.factory.components.button.IosButton"/>
+    <fullyQualifiedTypeName name="designpatterns.factory.components.menu.IosMenu"/>
+    <fullyQualifiedTypeName name="designpatterns.factory.components.dropdown.IosDropDown"/>
+    <fullyQualifiedTypeName name="designpatterns.factory.AndroidUIFactory"/>
+    <fullyQualifiedTypeName name="designpatterns.factory.IosUIFactory"/>
+    <fullyQualifiedTypeName name="designpatterns.factory.UIFactory"/>
+    <fullyQualifiedTypeName name="designpatterns.factory.components.button.Button"/>
+    <fullyQualifiedTypeName name="designpatterns.factory.components.button.AndroidButton"/>
+    <fullyQualifiedTypeName name="designpatterns.factory.components.menu.AndroidMenu"/>
+    <fullyQualifiedTypeName name="designpatterns.factory.components.dropdown.AndroidDropDown"/>
+</qualifiedTypeNameHistroy>

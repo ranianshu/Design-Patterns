@@ -1,0 +1,27 @@
+package designpatterns.factory;
+
+import designpatterns.factory.components.button.Button;
+import designpatterns.factory.components.dropdown.DropDown;
+import designpatterns.factory.components.menu.Menu;
+
+public class IosUIFactory implements UIFactory{
+
+	@Override
+	public Button createButton() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Menu createMenu() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public DropDown createDropDown() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

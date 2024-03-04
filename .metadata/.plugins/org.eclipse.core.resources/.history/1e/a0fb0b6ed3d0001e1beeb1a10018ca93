@@ -1,0 +1,21 @@
+package designpatterns.prototypeAndRegistry;
+
+public class Student implements Prototype<Student>{
+	
+	private String name;
+	private int age;
+	private String batchName;
+	private double psp;
+	private double batchPsp;
+	
+	@Override
+	public Student copy() {
+		Student st = new Student();
+		st.name = this.name;
+		st.age = this.age;
+		st.batchName = this.batchName;
+		st.psp = this.psp;
+		st.batchPsp = this.batchPsp;
+	}
+
+}

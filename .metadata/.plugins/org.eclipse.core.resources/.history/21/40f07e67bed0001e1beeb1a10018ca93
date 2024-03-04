@@ -1,0 +1,38 @@
+package designpatterns.builder;
+
+public class Student {
+	
+	private String name;
+	private int age;
+	private double psp;
+	private String universityName;
+	private String batch;
+	private Long id;
+	private int gradYear;
+	private String phoneNumber; 
+	
+	Builder getBuilder() {
+		return new Builder();
+	}
+	
+	Student(Builder builder) throws Exception{
+		
+		//validation
+		
+		if(builder.getGradYear() < 2000) {
+			throw new Exception("validation failed");
+		}
+		
+		//set the values
+		this.name = builder.getName();
+		this.age = builder.getAge();
+		this.psp = builder.getPsp();
+		this.universityName = builder.getUniversityName();
+		this.batch = builder.getBatch();
+		this.id = builder.getId();
+		this.gradYear = builder.getGradYear();
+		this.phoneNumber = builder.getPhoneNumber();
+		
+	}
+
+}

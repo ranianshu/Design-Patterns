@@ -1,0 +1,13 @@
+package designpatterns.factory;
+
+public class Flutter {
+	
+	public void setTheme() {
+		System.out.println("setting theme for flutter");
+	}
+	
+	public void refreshRate() {
+		System.out.println("setting refresh rate for flutter");
+	}
+
+}

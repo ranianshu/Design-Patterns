@@ -1,0 +1,5 @@
+package designpatterns.singleton.singleThreaded;
+
+public class DatabaseConnection {
+
+}

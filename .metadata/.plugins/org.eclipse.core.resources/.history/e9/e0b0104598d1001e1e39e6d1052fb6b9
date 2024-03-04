@@ -1,0 +1,28 @@
+package designpatterns.prototypeAndRegistry;
+
+public class Client {
+
+	public static void main(String[] args) {
+		
+		StudentRegistry studentRegistry = new StudentRegistry();
+		fillStudentRegistry(studentRegistry);
+		
+		Student st = studentRegistry.get("Apr21 batch");
+		st.setName("Anshu");
+		st.setAge(25);
+		st.setPsp(80);
+
+	}
+
+	private static void fillStudentRegistry(StudentRegistry registry) {
+		Student aprStudent = new Student();
+		aprStudent.setBatchName("Apr21 batch");
+		aprStudent.setBatchPsp(70);
+		
+		registry.register("apr21", aprStudent);
+		
+		//Student 
+		
+	}
+
+}

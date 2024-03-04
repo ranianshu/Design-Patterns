@@ -1,0 +1,14 @@
+package designpatterns.builder;
+
+public class Builder {
+	
+	private String name;
+	private int age;
+	private double psp;
+	private String universityName;
+	private String batch;
+	private Long id;
+	private int gradYear;
+	private String phoneNumber;
+
+}

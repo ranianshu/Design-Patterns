@@ -1,0 +1,4 @@
+INDEX VERSION 1.132+C:\Users\002P24744\Documents\Scaler_LLD3\designPatterns\.metadata\.plugins\org.eclipse.jdt.core
+842697352.index
+1865797976.index
+826973041.index

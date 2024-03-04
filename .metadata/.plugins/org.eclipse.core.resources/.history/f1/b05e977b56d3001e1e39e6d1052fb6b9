@@ -1,0 +1,30 @@
+package designpatterns.factory;
+
+import designpatterns.factory.components.button.AndroidButton;
+import designpatterns.factory.components.button.Button;
+import designpatterns.factory.components.dropdown.AndroidDropDown;
+import designpatterns.factory.components.dropdown.DropDown;
+import designpatterns.factory.components.menu.AndroidMenu;
+import designpatterns.factory.components.menu.Menu;
+
+public class AndroidUIFactory implements UIFactory{
+
+	@Override
+	public AndroidButton createButton() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public AndroidMenu createMenu() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public AndroidDropDown createDropDown() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
